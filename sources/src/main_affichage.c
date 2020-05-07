@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 #include "ecrire_graphe.h"
 
@@ -28,7 +29,6 @@ int main(int argc, const char* argv[]) {
 
     char * file_graphe = NULL;
     char * file_coloration = NULL;
-    char * file_out = "./graphe.bmp";
 
     if (argc != 3) {
         usage_aff(argv[0]);
@@ -82,7 +82,7 @@ int main(int argc, const char* argv[]) {
         tracerRond(I, 50, tab_centre[i].x, tab_centre[i].y, p.p[coloriage_graphe.point[i] + 1]);
     }
 
-    Sauver(I, "test.bmp");
+    Sauver(I, "graphe.bmp");
 
     return 1;
 }
