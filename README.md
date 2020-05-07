@@ -7,7 +7,7 @@
     `make`
     Les exécutables se retrouveront dans `sources/bin/`.
 
-## Projet par:
-    -HUARD Titouan
-    -FOURRE Pierre
-    -PECH gabriel
+## Projet par :
+-HUARD Titouan
+-FOURRE Pierre
+-PECH gabriel
