@@ -8,6 +8,6 @@
     Les exécutables se retrouveront dans `sources/bin/`.
 
 ## Projet par :
--HUARD Titouan
--FOURRE Pierre
--PECH gabriel
+- HUARD Titouan
+- FOURRE Pierre
+- PECH gabriel
